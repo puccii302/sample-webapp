@@ -1,0 +1,22 @@
+{
+  "name": "sample-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./dist/index.js",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "vite": "^5.4.11",
+    "vite-plugin-node": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
